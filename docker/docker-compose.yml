@@ -14,9 +14,9 @@ services:
         network_mode: host
 
         # uncomment this and a line below as needed.
-        devices:
+        # devices:
         # zwave usb serial device
-            - /dev/serial/by-id/usb-Silicon_Labs_HubZ_Smart_Home_Controller_51300AE6-if00-port0:/dev/zwave
+        #   - /dev/serial/by-id/usb-Silicon_Labs_HubZ_Smart_Home_Controller_51300AE6-if00-port0:/dev/zwave
         # all usb devices, such as coral tpu
         #   - /dev/bus/usb:/dev/bus/usb
 
